@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>City Information Application</title>
+    <title>Country Information Application</title>
 
     <script src="main.js" async ></script>
-    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" >
 </head>
 <body>
+<main>
+    <h1>Let's search some country information</h1>
+    <input id="countrySearch" type="text" placeholder="Type country" >
+    <input id="searchButton" type="submit" value="Search">
+    <img id="flagImage">
+    <h2 id="country-name-header"></h2>
+    <p id="textLine1"></p>
+    <p id="textLine2"></p>
+    <p id="textLine3"></p>
+
+</main>
 
 </body>
 </html>
